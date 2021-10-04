@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>My Maths Quiz game!</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="quiz_page.js"></script>
+</head>
+<body style="background-image:url(https://previews.123rf.com/images/obradov/obradov1903/obradov190300089/118613364-colorful-numbers-background-minimal-creative-concept-.jpg);"
+    
+    <h2 id="player_1name" style="background-color: white;">  </h2> <span id="player1_score"></span>
+    
+    <br>
+
+    <h2 id="player_2name" style="background-color: white;"> </h2> <span id="player2_score"></span>
+
+    <div class="container">
+<center>
+     <h1 style="background-color: white;">The Maths Quiz Game!</h1>
+     <br>
+     <h3 id="player_question"></h3>
+     
+     <h3 id="player_answer"></h3>
+     <br>
+     <br>
+     <div id="output" class="col-lg-6"></div>
+     <br>
+     <h2 style="background:white">Number 1</h2>
+     <br>
+     <input type="text" id="number1" placeholder="Number1" class="form-control">
+     <br>
+     <h2 style="background:white">Number 2</h2>
+     <br>
+     <input type="text" id="number2" placeholder="Number2" class="form-control">
+     <br>
+     <button onclick="send()" class="btn btn-success" style="width:30%;">Send</button>
+</center>
+
+<script src="quiz_page.js"></script>
+
+    </div>
+
+</body>
+
+
+</html>
